@@ -1,9 +1,10 @@
 # Dual stage attention based RNN
- The implementation is based on the paper [A Dual-Stage Attention-Based Recurrent Neural Network for Time Series Prediction](https://arxiv.org/abs/1704.02971).
+ The implementation is based on the papers [A Dual-Stage Attention-Based Recurrent Neural Network for Time Series Prediction](https://arxiv.org/abs/1704.02971)
+ and [Hierarchical Attention-Based Recurrent Highway Networks for Time Series Prediction](https://arxiv.org/abs/1806.00685)
 
 
 
- ### Model:
+ ### Model1:
  ![alt text](https://github.com/adityamh96/Deep-learning-paper-implementation-RNN-models-/blob/main/images/DA-RNN%20architecture.png 'DA-RNN')
  
 The paper here proposes a novel method of capturing both the long term dependancies as well as important hidden variables from the input data.
@@ -13,6 +14,8 @@ The neural network here consists of two parts: input attention mechanism and tem
 •	In input attention mechanism the network layers try to capture only the most important hidden variables at each time step before feeding that data into the encoder LSTM network. 
 
 •	In temporal attention mechanism the relevant encoder hidden states that are extracted across all time steps are retrieved from the LSTM encoder and integrated with the hidden state of the LSTM decoder. The network layers then try to capture the important hidden variables from the encoder and decoder combined. 
+
+### Model 2:
 
 ### Environment:
 Code has been developed using python 3.6, PyTorch library version:1.3
