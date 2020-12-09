@@ -1,7 +1,6 @@
 # Dual stage attention based RNN
  The implementation is based on the paper [A Dual-Stage Attention-Based Recurrent Neural Network for Time Series Prediction](https://arxiv.org/abs/1704.02971).
- 
-### Architecture: 
+
 
 
  ### Key idea:
