@@ -4,7 +4,7 @@
 
 
  ### Model:
- 
+ ![alt text](https://github.com/adityamh96/Deep-learning-paper-implementation-RNN-models-/blob/main/images/DA-RNN%20architecture.png 'DA-RNN')
  
 The paper here proposes a novel method of capturing both the long term dependancies as well as important hidden variables from the input data.
 
