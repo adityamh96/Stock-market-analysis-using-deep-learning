@@ -1,4 +1,4 @@
-# Dual stage attention based RNN
+
  The implementation is based on the papers [A Dual-Stage Attention-Based Recurrent Neural Network for Time Series Prediction](https://arxiv.org/abs/1704.02971)
  and [Hierarchical Attention-Based Recurrent Highway Networks for Time Series Prediction](https://arxiv.org/abs/1806.00685)
 
