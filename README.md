@@ -16,6 +16,17 @@ The neural network here consists of two parts: input attention mechanism and tem
 •	In temporal attention mechanism the relevant encoder hidden states that are extracted across all time steps are retrieved from the LSTM encoder and integrated with the hidden state of the LSTM decoder. The network layers then try to capture the important hidden variables from the encoder and decoder combined. 
 
 ### Model 2:
+![alt text](https://github.com/adityamh96/Deep-learning-paper-implementation/blob/main/images/HA-RNN.png "HA-RNN")
+
+•	The encoder here consists of convolution layer blocks or a network of convolution networks along with Recurrent Highway network.
+
+•	This part of the network is used to model the exogenous temporal dynamics of the input.
+
+•	Most important use of CNN here is its ability to learn the feature representation by convolving the inputs and summarizing them.
+
+•	The Recurrent Highway networks is the part use to model the temporal dynamics of the exogenous series of inputs.
+
+•	The decoder here also consists of a RHN which not only helps to decode the temporal dynamics of the old data but also the correlations among the data used to train.
 
 ### Environment:
 Code has been developed using python 3.6, PyTorch library version:1.3
