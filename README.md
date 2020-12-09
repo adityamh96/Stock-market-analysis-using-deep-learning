@@ -3,7 +3,9 @@
 
 
 
- ### Key idea:
+ ### Model:
+ 
+ 
 The paper here proposes a novel method of capturing both the long term dependancies as well as important hidden variables from the input data.
 
 The neural network here consists of two parts: input attention mechanism and temporal attention mechanism. 
@@ -12,7 +14,8 @@ The neural network here consists of two parts: input attention mechanism and tem
 
 •	In temporal attention mechanism the relevant encoder hidden states that are extracted across all time steps are retrieved from the LSTM encoder and integrated with the hidden state of the LSTM decoder. The network layers then try to capture the important hidden variables from the encoder and decoder combined. 
 
- 
+### Environment:
+Code has been developed using python 3.6, PyTorch library version:1.3
+
 ### Dataset details:
-The dataset used as part of our implementation is a subset of NASDAQ 100 dataset. This dataset has stock prices and index prices for 81 major corporations. These prices are recorded for a total of 105 days starting from July 26, 2016 till December 22, 2016. There are 390 data points recorded for each day, except for November 25, where we have 210 data points and 180 data points for December 22. 
-The missing values in our dataset have been imputed by linearly interpolated values.
+The dataset used as part of our implementation is a subset of NASDAQ 100 dataset. This dataset has stock prices and index prices for 81 major corporations. These prices are recorded for a total of 105 days starting from July 26, 2016 till December 22, 2016. There are 390 data points recorded for each day, except for November 25, where we have 210 data points and 180 data points for December 22. The missing values in our dataset have been imputed by linearly interpolated values.
